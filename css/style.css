@@ -1,0 +1,76 @@
+.logo{
+    
+    height: 50px;
+    width: 50px;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+}
+body{
+    background-color: black;
+}
+h1{
+    color: aliceblue;
+}
+
+.container{
+    max-width: 955px;
+    background-color: rgb(17, 65, 104);
+    margin: auto;
+    height: 60vh;
+    padding: 2rem;
+    border-radius: 1rem 1rem 0  0;
+    overflow-y: auto;
+    margin-bottom: 2px;
+    
+}
+
+.message{
+    background-color: rgb(71, 153, 126);
+    max-width: 24%;
+    min-width: 15%;
+    padding: 10px;
+    margin: 17px 12px;
+    box-shadow: 0 0 1rem black;
+    color: aliceblue;
+    
+}
+
+.left{
+    border-radius: 1rem 0 1rem 0;
+    float: left;
+    clear: both;
+}
+
+.right{
+    border-radius:  0 1rem 0 1rem;
+    float: right;
+    clear: both;
+}
+
+.send{
+    max-width: 955px;
+    background-color: rgb(7, 42, 72);
+    margin: auto;
+    padding: 1rem 2rem 1rem 2rem;
+    border-radius:  0  0 1rem 1rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+
+.chatmessage{
+    min-height: 30px;
+    font-size: 15px;
+}
+
+.btn{
+    height: 35px;
+    width: 40px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(186, 66, 66);
+    cursor: pointer;
+}

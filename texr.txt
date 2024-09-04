@@ -1,0 +1,7 @@
+Web socet io provide two way communication where we can set up two way communication and server emit krta hai events ko and client listen krta hai and vice versa
+
+difference between io.on and socket.on
+socket io instance of the http 
+socket server listen incomming events 
+io.on => socket.io instance which listen many user connnection
+socket.on => handle particular user  
